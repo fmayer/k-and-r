@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int htoi(char s[]) {
+int htoi(char s[])
+{
         char v;
         int i = 0, r = 0;
         if (s[0] == '0' && (s[1] == 'x' || s[1] == 'X')) {
@@ -21,7 +22,8 @@ int htoi(char s[]) {
         return r;
 }
 
-int main() {
+int main()
+{
         printf("%d\n", htoi("0xFF"));
         return 0;
 }
