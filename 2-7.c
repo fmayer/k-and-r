@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 unsigned int invert(unsigned int x, int p, int n)
 {
         unsigned int mask = ~(~0 << n) << (p+1 - n);
