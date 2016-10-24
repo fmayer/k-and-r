@@ -8,7 +8,7 @@ int main()
                 if (c != ' ' || !lc) {
                         putchar(c);
                 }
-                lc = c == ' ';
+                lc = c;
         }
 	return 0;
 }
